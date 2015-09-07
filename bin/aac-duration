@@ -1,0 +1,6 @@
+#!/usr/bin/env node
+var duration = require("../lib/aac-duration");
+if (!process.argv[2]) {
+  throw new Error("please assign file path");
+}
+console.log(duration(process.argv[2]) + "sec");

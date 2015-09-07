@@ -1,0 +1,20 @@
+{
+  "name": "aac-duration",
+  "version": "0.0.1",
+  "description": "aac duration getter",
+  "bin": {
+    "aac-duration": "./bin/aac-duration"
+  },
+  "main": "lib/aac-duration.js",
+  "license": "MIT",
+  "files": [
+    "README.md",
+    "package.json",
+    "bin",
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:dwango-js/aac-duration.git"
+  }
+}
